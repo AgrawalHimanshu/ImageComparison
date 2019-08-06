@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ImageComparison" verbose="1" >
+  <test name="CaatureImageForFirstSet" >
+    <classes>
+       <class name="com.sapient.ImageComparison.CaptureImagesForFirstSetOfURL" />
+    </classes>
+  </test>
+ 
+  <test name="CaatureImageForSecondSet">
+    <classes>
+       <class name="com.sapient.ImageComparison.CaptureImagesForSecondSetOfURL" />
+    </classes>
+  </test>
+  
+  <test name="CompareImages">
+    <classes>
+       <class name="com.sapient.ImageComparison.CompareImageTwo" />
+    </classes>
+  </test>
+  
+</suite>

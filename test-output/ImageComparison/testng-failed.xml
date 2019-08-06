@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ImageComparison]">
+  <test name="CaatureImageForFirstSet">
+    <classes>
+      <class name="com.sapient.ImageComparison.CaptureImagesForFirstSetOfURL"/>
+    </classes>
+  </test> <!-- CaatureImageForFirstSet -->
+  <test name="CaatureImageForSecondSet">
+    <classes>
+      <class name="com.sapient.ImageComparison.CaptureImagesForSecondSetOfURL"/>
+    </classes>
+  </test> <!-- CaatureImageForSecondSet -->
+  <test name="CompareImages">
+    <classes>
+      <class name="com.sapient.ImageComparison.CompareImageTwo"/>
+    </classes>
+  </test> <!-- CompareImages -->
+</suite> <!-- Failed suite [ImageComparison] -->
